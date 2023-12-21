@@ -18,8 +18,8 @@ if (myArray.length === 0) {
 }
 
 // Funkcija pavadinimu “skaitmenuKiekisSkaiciuje”:
-// Jai randomKintamasis ne skaiciaus isspausidns kad tai ne skaicius;
-// Jai randomKintamasis skaiciaus isspausidns kiek simboliu turi;
+// Jai randomKintamasis ne skaicius isspausdins kad tai ne skaicius;
+// Jai randomKintamasis skaiciaus isspausdins kiek simboliu turi;
 // MINTIS! Veikia tik su Intigers to ko prase uzduotis;
 const randomKintamasis = 1;
 
