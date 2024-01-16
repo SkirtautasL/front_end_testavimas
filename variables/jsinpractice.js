@@ -18,10 +18,10 @@ if (myArray.length === 0) {
 }
 
 // Funkcija pavadinimu “skaitmenuKiekisSkaiciuje”:
-// Jai randomKintamasis ne skaicius isspausdins kad tai ne skaicius;
-// Jai randomKintamasis skaiciaus isspausdins kiek simboliu turi;
+// Jai randomKintamasis ne skaiciaus isspausidns kad tai ne skaicius;
+// Jai randomKintamasis skaiciaus isspausidns kiek simboliu turi;
 // MINTIS! Veikia tik su Intigers to ko prase uzduotis;
-const randomKintamasis = 1;
+const randomKintamasis = 29;
 
 if (Number.isInteger(randomKintamasis)) {
   test = randomKintamasis.toString().length;
@@ -30,4 +30,28 @@ if (Number.isInteger(randomKintamasis)) {
   console.log("Tai ne skaicius!");
 }
 
-test;
+// Suskaičiuoti, kiek nurodytame intervale yra skaičių, kurie dalijasi be liekanos iš 3, 5 ir 7 atskirai:
+for (let i = 0; i < 12; i++) {
+  if (i % 7 === 0) {
+    console.log(
+      "Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 7 yra 2 vienetai:",
+      i
+    );
+  }
+}
+//Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
+let sum = 0;
+for (let i = 574; i <= 815; i++) {
+  if (i % 1 === 0) {
+    sum += i;
+  }
+}
+console.log(sum);
+
+//panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo:
+let str = "abcdef";
+let newString = "";
+for (let i = str.length - 1; i >= 0; i--) {
+  newString += str[i];
+}
+console.log(newString);
