@@ -29,3 +29,5 @@ if (Number.isInteger(randomKintamasis)) {
 } else {
   console.log("Tai ne skaicius!");
 }
+
+test;
